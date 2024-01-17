@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<DTSConfiguration>
+  <DTSConfigurationHeading>
+    <DTSConfigurationFileInfo GeneratedBy="KCUS\f99911" GeneratedFromPackageName="KCM FEP VerificaFacsEnFep" GeneratedFromPackageID="{0648FA8C-8441-486A-8B43-DDD9AB4B4940}" GeneratedDate="02/01/2024 10:12:40 a. m."/>
+  </DTSConfigurationHeading>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[MXMCAS06.fep0mxdb].Properties[ConnectionString]" ValueType="String">
+    <ConfiguredValue>Data Source=MXMCAS06;Initial Catalog=fep0mxdb;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[USTWAS343\DAXDEV.int1mxdb].Properties[ConnectionString]" ValueType="String">
+    <ConfiguredValue>Data Source=USTWAS343\DAXDEV;Initial Catalog=int1mxdb;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Variables[User::eMailAsunto].Properties[Value]" ValueType="String">
+    <ConfiguredValue>PROCESO DIARIO PARA VERIFICAR FACTURAS ELECTRONICAS EN FEP</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Variables[User::eMailDe].Properties[Value]" ValueType="String">
+    <ConfiguredValue>oscaresteban.anica@kcc.com</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Variables[User::eMailPara].Properties[Value]" ValueType="String">
+    <ConfiguredValue>oscaresteban.anica@kcc.com,jonathan.montoya@kcc.com</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Variables[User::eMailSmtpClient].Properties[Value]" ValueType="String">
+    <ConfiguredValue>mailhost.kcc.com</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Variables[User::mensajeError].Properties[Value]" ValueType="String">
+    <ConfiguredValue>Acción con Errores. Proceso Diario Rechazo FEP</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Variables[User::mensajeExito].Properties[Value]" ValueType="String">
+    <ConfiguredValue>Acción Exitosa. Proceso Diario Rechazo FEP</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Variables[User::mensajeInicial].Properties[Value]" ValueType="String">
+    <ConfiguredValue>Acción Inicializada. Proceso Diario Rechazo FEP</ConfiguredValue>
+  </Configuration>
+</DTSConfiguration>
